@@ -45,4 +45,4 @@ if st.button("Run"):
     st.dataframe(df)
 
     # Create a download button for the user to download the excel file
-    st.download_button("Download Excel File", df.to_excel(index=False), file_name="links.xlsx")
+    #st.download_button("Download Excel File", df.to_excel(index=False), file_name="links.xlsx")
